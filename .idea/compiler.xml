@@ -9,6 +9,7 @@
         <module name="bookstore-service" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
+        <module name="eureka-feign" />
         <module name="eureka-hi" />
         <module name="eureka-server" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="bookstore-service" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-feign" target="1.8" />
       <module name="eureka-hi" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>

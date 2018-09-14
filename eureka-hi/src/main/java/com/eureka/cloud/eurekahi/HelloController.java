@@ -22,7 +22,6 @@ import org.springframework.web.client.RestTemplate;
  * @Description:
  */
 
-@RequestMapping("/hello")
 @RestController
 public class HelloController {
 
@@ -32,7 +31,7 @@ public class HelloController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String hello(@RequestParam String name) {
         name += "!";
         ServiceInstance instance = client.choose("eureka-client");
