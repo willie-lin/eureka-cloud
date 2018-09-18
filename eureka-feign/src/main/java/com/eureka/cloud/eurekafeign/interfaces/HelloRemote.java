@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Description:
  */
 @Component
-@FeignClient(name = "eureka-client")
+@FeignClient(name = "eureka-client", fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
 
     @GetMapping("/hello")
