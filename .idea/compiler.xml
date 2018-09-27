@@ -12,6 +12,7 @@
         <module name="eureka-feign" />
         <module name="eureka-hi" />
         <module name="eureka-server" />
+        <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +22,7 @@
       <module name="eureka-feign" target="1.8" />
       <module name="eureka-hi" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
