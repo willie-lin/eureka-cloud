@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * Created with IntelliJ IDEA.
  *
+ * @author YuAn
  * @Package: com.eureka.cloud.eurekafeign
  * @auther: YuAn
  * @Date: 2018/9/14
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * To change this template use File | Settings | File Templates.
  * @Description:
  */
+
 @Component
 @FeignClient(name = "eureka-client", fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
