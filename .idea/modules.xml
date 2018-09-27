@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-hi/eureka-hi.iml" filepath="$PROJECT_DIR$/eureka-hi/eureka-hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/turbine/turbine.iml" filepath="$PROJECT_DIR$/turbine/turbine.iml" />
     </modules>
   </component>
 </project>

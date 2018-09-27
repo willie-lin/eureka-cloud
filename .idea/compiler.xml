@@ -13,6 +13,7 @@
         <module name="eureka-hi" />
         <module name="eureka-server" />
         <module name="hystrix-dashboard" />
+        <module name="turbine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="eureka-hi" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
+      <module name="turbine" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
