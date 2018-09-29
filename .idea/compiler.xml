@@ -10,6 +10,9 @@
         <module name="eureka-client" />
         <module name="eureka-consumer" />
         <module name="eureka-feign" />
+        <module name="eureka-feign (2)" />
+        <module name="eureka-feign-hystrix-node1" />
+        <module name="eureka-feign-hystrix-node3" />
         <module name="eureka-hi" />
         <module name="eureka-server" />
         <module name="hystrix-dashboard" />
@@ -21,6 +24,10 @@
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
       <module name="eureka-feign" target="1.8" />
+      <module name="eureka-feign (2)" target="1.8" />
+      <module name="eureka-feign-hystrix-node1" target="1.8" />
+      <module name="eureka-feign-hystrix-node2" target="1.8" />
+      <module name="eureka-feign-hystrix-node3" target="1.8" />
       <module name="eureka-hi" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-feign/eureka-feign.iml" filepath="$PROJECT_DIR$/eureka-feign/eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-hystrix-node1/eureka-feign-hystrix-node1.iml" filepath="$PROJECT_DIR$/eureka-feign-hystrix-node1/eureka-feign-hystrix-node1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-feign-hystrix-node3/eureka-feign-hystrix-node3.iml" filepath="$PROJECT_DIR$/eureka-feign-hystrix-node3/eureka-feign-hystrix-node3.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-hi/eureka-hi.iml" filepath="$PROJECT_DIR$/eureka-hi/eureka-hi.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />

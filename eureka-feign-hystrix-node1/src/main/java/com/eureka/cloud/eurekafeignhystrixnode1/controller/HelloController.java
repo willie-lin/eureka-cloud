@@ -1,6 +1,6 @@
-package com.eureka.cloud.eurekafeign.controller;
+package com.eureka.cloud.eurekafeignhystrixnode1.controller;
 
-import com.eureka.cloud.eurekafeign.interfaces.HelloRemote;
+import com.eureka.cloud.eurekafeignhystrixnode1.interfaces.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package com.eureka.cloud.eurekafeign.interfaces;
+package com.eureka.cloud.eurekafeignhystrixnode3.interfaces;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;

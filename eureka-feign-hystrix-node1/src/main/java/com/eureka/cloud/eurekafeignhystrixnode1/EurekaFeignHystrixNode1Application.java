@@ -1,4 +1,4 @@
-package com.eureka.cloud.eurekafeign;
+package com.eureka.cloud.eurekafeignhystrixnode1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,10 +12,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableHystrix
 @EnableFeignClients
 @SpringBootApplication
-public class EurekaFeignApplication {
+public class EurekaFeignHystrixNode1Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaFeignApplication.class, args);
+        SpringApplication.run(EurekaFeignHystrixNode1Application.class, args);
     }
 
 }

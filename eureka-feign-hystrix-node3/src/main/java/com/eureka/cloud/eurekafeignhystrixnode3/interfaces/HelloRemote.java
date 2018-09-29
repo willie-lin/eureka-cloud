@@ -1,4 +1,4 @@
-package com.eureka.cloud.eurekafeign.interfaces;
+package com.eureka.cloud.eurekafeignhystrixnode3.interfaces;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

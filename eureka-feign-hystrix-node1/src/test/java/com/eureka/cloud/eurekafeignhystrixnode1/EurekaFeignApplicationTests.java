@@ -1,4 +1,4 @@
-package com.eureka.cloud.eurekafeign;
+package com.eureka.cloud.eurekafeignhystrixnode1;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
