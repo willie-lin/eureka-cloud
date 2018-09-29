@@ -1,0 +1,2 @@
+spring.application.name=config-client-git
+server.port=13000

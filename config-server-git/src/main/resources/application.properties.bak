@@ -1,2 +1,4 @@
 spring.application.name=config-server
 spring.cloud.config.server.git.uri=https://github.com/Willie-lin/eureka-cloud-config.git
+spring.cloud.config.server.git.search-paths= config-repo
+server.port= 12000
