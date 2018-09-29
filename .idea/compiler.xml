@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bookstore-service" />
+        <module name="config-server-git" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
         <module name="eureka-feign" />
@@ -21,6 +22,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bookstore-service" target="1.8" />
+      <module name="config-server-git" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-consumer" target="1.8" />
       <module name="eureka-feign" target="1.8" />

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Willie-lin/eureka-cloud-config.git
+          search-paths: config-repo
+
+server:
+  port: 12000

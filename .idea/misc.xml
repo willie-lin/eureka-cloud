@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/turbine/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-hystrix-node1/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-hystrix-node3/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server-git/pom.xml" />
       </list>
     </option>
   </component>
