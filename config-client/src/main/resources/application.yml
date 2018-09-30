@@ -3,3 +3,8 @@ spring:
     name: config-client-git
 server:
   port: 12001
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
