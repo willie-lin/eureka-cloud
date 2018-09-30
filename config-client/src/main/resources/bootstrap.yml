@@ -1,9 +1,17 @@
 spring:
   cloud:
     config:
-      uri: http://localhost:12000
+#      uri: http://localhost:12000
       name: neo-config # 对应 {application} 部分
       profile: dev # 对应 {profile} 部分
       label: master # 对应 {label} 部分，即 Git 的分支。如果配置中心使用的是本地存储，则该参数无用
+      discovery:
+        enabled: true
+        service-id: config-server
   application:
     name: config-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
