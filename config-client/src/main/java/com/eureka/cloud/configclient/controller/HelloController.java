@@ -1,6 +1,7 @@
 package com.eureka.cloud.configclient.controller;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,21 +21,22 @@ import reactor.core.publisher.Mono;
  */
 
 @RestController
+@Component
 public class HelloController {
 
-//    @Value("${info.profile:error}")
-//        private String profile;
-//
-//        @GetMapping("/info")
-//        public Mono<String> hello() {
-//            return Mono.justOrEmpty(profile);
-//    }
-
     @Value("${info.profile:error}")
-    private String hello;
+        private String profile;
 
-    @RequestMapping("/hello")
-    public String from() {
-        return this.hello;
+        @GetMapping("/info")
+        public Mono<String> hello() {
+            return Mono.justOrEmpty(profile);
     }
+
+//    @Value("${info.profile:error}")
+//    private String hello;
+//
+//    @RequestMapping("/hello")
+//    public String from() {
+//        return this.hello;
+//    }
 }
